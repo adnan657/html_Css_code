@@ -1,0 +1,86 @@
+.header{
+	background-image: url(img1.jpg);
+	height: 100vh; 
+	width: 100%;
+	background-size: cover;
+	position: relative;
+}
+.headerdiv{
+	color: white; 
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.headerdiv h1{
+	font-size: 25px;
+	font-weight: bold;  
+	text-align: center;
+ 
+
+}
+.headerdiv p{
+	text-align: center; 
+
+}
+.inputset{
+	display: inline-block;
+	width: 80%; 
+	margin-right: auto; 
+	margin-left: auto; 
+	border-radius: 2rem;
+	padding: 7px; 
+	outline: none; 
+	background-color:#FF80AB;
+	text-align: center;
+
+}
+.herobtn{
+	width: 30%;
+	display: block;
+	margin-top: 10px; 
+	border-radius: 2rem;
+	text-align: center;
+	margin-right:auto;
+	margin-left: auto;
+	padding: 5px; 
+	background-color: #00E5FF;
+
+}
+
+.foodsec{
+
+	width: 80%;
+	margin-left: auto; 
+	margin-right: auto;
+	margin-top: 10px; 
+	
+}
+
+
+.wraper_foodsec{
+
+	width: 28%;
+	float: left;
+	margin-left: 4rem;
+	border: 2px solid yellow; 
+
+}
+.imgeset{
+	height: 100%;
+}
+.wraper_foodsec:first-of-type{
+	margin-left: 0px; 
+}
+
+.foodsec h2{
+	font-size: 32px; 
+	text-align: center;
+	color: #69F0AE;
+	font-weight: bold;
+	border: 3px solid green; 
+	border-radius: 9px;
+	background-color:#CCFF90; 
+
+
+}
